@@ -1,0 +1,9 @@
+
+
+@tailwind base;
+
+@layer base {
+    .pic_member {
+        @apply bg-contain bg-center bg-no-repeat;
+    }
+}
