@@ -3,6 +3,6 @@
 
 simple version introduce of the Luxiem which using Tailwind beginner skills (RWD)
 
-luxiem-tailwind-test.netlify.app
+https://luxiem-tailwind-test.netlify.app/
 
 =============
