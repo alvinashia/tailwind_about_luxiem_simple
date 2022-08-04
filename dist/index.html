@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Luxiem</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
-
+<!-- @apply到底要不要用有兩派論戰，有人說已經有class就不用再包一層，但另一派就說這樣會比較好管理 -->
 
 </head>
 
@@ -52,6 +52,7 @@
         <div class="container mx-auto max-w-5xl">
             <h2 class="text-3xl text-center mb-6 ">Members</h2>
             <div class="flex flex-wrap">
+                <!-- 這邊使用的是網格系統，也就是12等分去除，因為是除法的觀念，所以不會出現5，而是用12能整除的數字去做 -->
                 <div class="w-full sm:w-2/12 px-1 mb-4">
                     <div class=" bg-contain bg-center bg-no-repeat"
                         style="height: 150px;background-image:url(./Vox_Akuma_Portrait.webp);"><img src=""></div>
